@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    background-image: url(rianne-zuur-wHL9mI3HgdM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    color: white;
+}
+.container{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    border-width: 1px;
+    border-color:rgba(255, 255, 255, 0.404);
+    border-style: solid;
+    width:500px;
+    height:auto;
+    outline: none;
+    position: relative;
+    top: 100px;
+    left: 33%;
+}
+.header{
+    display: flex;
+    padding: 30px;
+    padding-left:150px;
+}
+.header img{
+    width: 50px;
+}
+.list{
+    margin-left: 50px;
+}
+.list input{
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white
+}
+.list button{
+    background-color:darkmagenta;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.todo{
+    margin-left: 70px;
+    margin-top: 30px;
+    font-size: 35px;
+    cursor: pointer;
+    width: fit-content;
+}
